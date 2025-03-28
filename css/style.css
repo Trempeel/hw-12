@@ -123,9 +123,7 @@ body {
    font-size: 16px;
    line-height: 1.87;
    letter-spacing: 0.06em;
-   text-align: center;
-   padding-top: 45;
-   
+   margin-left: 450px;
 }
 .main-title {
    color: var(--bely);
@@ -138,9 +136,7 @@ body {
    width: 1600px;
    height: 600px;
    padding-bottom: 45px;
-   display: flex;
-   padding-right: 498px;
-   padding-left: 498px;
+   margin-left: 70px;
 }
 .features-item-text {
    color: var(--seriychik);
