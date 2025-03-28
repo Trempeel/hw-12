@@ -195,11 +195,13 @@ footer {
    padding-bottom: 60px;
 }
 .work-item {
-   padding-left: 30px;
+   padding-right: 15px;
 }
 .work-list {
    display: flex;
 }
+
+
 .team-member-name {
    font-family: var(--font-family);
    font-weight: 500;
@@ -227,7 +229,7 @@ footer {
    padding-top: 20px;
 }
 .team-member {
-   padding-left: 30px;
+   padding-left: 15px;
 }
 .team-list {
    display : flex;
@@ -241,6 +243,8 @@ footer {
 }
 .section-1 {
    background-color: var(--seriyniy);
+   padding-bottom: 94px;
+   padding-top: 94px;
 }
 .section-3 {
    padding-bottom: 93px;
