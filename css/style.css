@@ -124,6 +124,7 @@ body {
    line-height: 1.87;
    letter-spacing: 0.06em;
    margin-left: 450px;
+
 }
 .main-title {
    color: var(--bely);
@@ -136,7 +137,10 @@ body {
    width: 1600px;
    height: 600px;
    padding-bottom: 45px;
-   margin-left: 70px;
+   margin-left: 250px;
+}
+.span-main-title {
+   margin-left: 130px;
 }
 .features-item-text {
    color: var(--seriychik);
@@ -247,8 +251,8 @@ footer {
 }
 .section-1 {
    background-color: var(--seriyniy);
-   padding-bottom: 94px;
-   padding-top: 94px;
+   padding-bottom: 280px;
+   padding-top: 200px;
 }
 .section-3 {
    padding-bottom: 93px;
@@ -258,7 +262,9 @@ footer {
    padding-bottom: 93px;
    padding-top: 93px;
 }
+.span-main-title {
 
+}
 /* main portfolia */
 .features-link-5,
 .features-link-4,
