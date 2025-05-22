@@ -135,7 +135,6 @@ body {
    letter-spacing: 0.06em;
    text-transform: uppercase;
    width: 696px;
-   padding-bottom: 45px;
    margin: 0 auto;
    margin-bottom: 30px;
 }
@@ -157,7 +156,7 @@ body {
    font-size: 14px;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   padding-bottom: 23px;
+   padding-bottom: 10px;
 }
 .header-nav-link:hover,
 .header-contact-email:hover,
@@ -175,6 +174,10 @@ body {
 .features-list {
    display: flex;
 }
+.features {
+   padding-bottom: 94px;
+
+}
 .features-list-studio {
    display: flex;
    padding-top: 94px;
@@ -185,13 +188,19 @@ body {
 }
 .features-item {
    color: var(--cherniy);
-   background-color: #F5F4FA;
+}
+.team-list {
+   column-gap: 20px;
+}
+.work-list {
+   column-gap: 20px;
 }
 .features-item:hover {
    color: var(--siniy);
 }
 footer {
-   background-color: var(--seriyniy);
+   background-color: var(--seriyniy);  
+   height: 252px;
 }
 .work-title,
 .team-title {
@@ -203,10 +212,10 @@ footer {
    padding-bottom: 60px;
 }
 .work-item {
-   padding-right: 15px;
 }
 .work-list {
    display: flex;
+   column-gap: 20px;
 }
 
 
@@ -217,6 +226,7 @@ footer {
    letter-spacing: 0.03em;
    text-align: center;
    padding-bottom: 17px;
+   margin-top: 30px;
 }
 .footer-address {
    font-family: var(--font-family);
@@ -237,7 +247,7 @@ footer {
    padding-top: 20px;
 }
 .team-member {
-   padding-left: 15px;
+   column-gap: 20px;
 }
 .team-list {
    display : flex;
@@ -261,9 +271,17 @@ footer {
 .section-4 {
    padding-bottom: 93px;
    padding-top: 93px;
+   background: #f5f4fa;
 }
 .span-main-title {
 
+}
+.studio-ft {
+   color: var(--bely);
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
 }
 /* main portfolia */
 .features-link-5,
@@ -318,7 +336,6 @@ footer {
    line-height: 1.87;
    letter-spacing: 0.03em;
    color: var(--seriychik);
-   padding-bottom: 60px;
 }
 
 .features-list {
@@ -359,14 +376,11 @@ footer {
    flex-wrap: wrap;
    gap: 20px;
    list-style: none;
-   justify-content: center;
-   padding: 20px;
 }
 
 .project-item {
-   width: 300px; 
+   width: 356px; 
    background-color: #fff;
-   padding-bottom: 20px;
 }
 
 .project-item:hover {
@@ -390,4 +404,7 @@ footer {
    font-size: 14px;
    color: gray;
    margin-top: 5px;
+}
+.adresa {
+   font-style: normal;
 }
